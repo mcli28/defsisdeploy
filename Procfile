@@ -1,1 +1,1 @@
-web: gunicorn defsisdeploy:app
+web: gunicorn defsisdeploy.wsgi -b 0.0.0.0:$PORT 
