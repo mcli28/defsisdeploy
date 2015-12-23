@@ -1,1 +1,1 @@
-web: gunicorn defsisdeploy.wsgi:application
+web: gunicorn defsisdeploy:app
